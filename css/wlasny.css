@@ -1,0 +1,156 @@
+/*#####################################################################################################################*/
+/* ------------------------------------------- Własny CSS -------------------------------------------------------------*/
+/*#####################################################################################################################*/
+/*#####################################################################################################################*/
+/* Główne*/
+/*#####################################################################################################################*/
+/*#####################################################################################################################*/
+/*Menu Górne*/
+/*#####################################################################################################################*/
+h1{
+    font-size: 6rem;
+}
+
+h2{
+    font-size: 4rem;
+    line-height: 6rem;
+}
+
+h3{
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #101c4a;
+    padding-top: 2rem;
+}
+
+#wyniki{
+padding-top: 2rem;
+
+} 
+
+#tabelka1{
+    text-align: 0 auto;
+}
+#wpisy{
+    text-align: center;
+}
+
+#menu{
+background-color: #101c4a;
+}
+
+.navbar{
+    background-color: #101c4a;
+    font-size: 1.5rem;
+    color: #000000;
+    padding-top: 1.0rem;
+    border-color: #101c4a;
+}
+.navbar-outer{
+    width: 1200px;
+}
+
+.navbar-inverse .navbar-nav >li >a{ 
+color: #ffffff;
+margin-left: 5px;
+border: 1px solid transparent;
+line-height: 1rem;
+ }
+
+ .navbar-inverse .navbar-nav >li >a:hover{ 
+    display: block;
+    color: #0098e6;
+    border: 1px solid transparent;
+    border-color: #0098e6;
+    line-height: 1rem;
+    border-radius: 4px;
+    transition: all 0.7s ease;
+}
+
+.navbar-inverse .navbar-nav > .active > a{ 
+    display: block;
+    border-color: #ffffff;
+    background-color: #101c4a;
+    border-radius: 4px;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover{
+color: #0098e6;
+background-color: #101c4a;
+}
+
+#logo img{
+    display: block;
+    float:none;
+    margin-top: -1.5rem;
+
+}
+
+#stopka {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: left;
+    background-color: #101c4a;
+    color: #ffffff;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+#logos{
+    padding-top: 1.7rem;
+    margin: auto;
+}
+
+#wpisy {
+  padding-top: 0.5rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+.najnowsze_wpisy {
+  padding-bottom: 5rem;
+}
+.wpisy_foto {
+  padding: 1.7rem;
+  margin: 0 auto;
+  width: 26rem;
+}
+#wpisy a:hover img {
+  -webkit-animation: pulse .9s;
+  animation: pulse .9s;
+}
+#wpisy a:hover span {
+  -webkit-animation: flip .5s;
+  animation: flip .5s;
+}
+
+#stopka {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: left;
+  background-color: #101c4a;
+  color: #ffffff;
+}
+#stopka h4 {
+  color: #ffffff;
+}
+#stopka img {
+  float: right;
+  margin-right: 2rem;
+  width: 4rem;
+}
+
+#tabelka1{
+    text-align: 0 auto;
+}
+
+#mapa{
+  padding-top: 2rem;
+}
+
+#plan{
+  padding-top: 2rem;
+}
+
+#wzory{
+  padding: 2rem;
+}
